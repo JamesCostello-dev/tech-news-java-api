@@ -96,7 +96,7 @@ public class User implements Serializable {
 		returns votes;
 	}
 
-	public void getVotes(List<Vote> votes) {
+	public void setVotes(List<Vote> votes) {
 		this.votes = votes;
 	}
 
